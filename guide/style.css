@@ -1,0 +1,118 @@
+
+.guideui-container {
+	position: absolute;
+	display: none;
+	width: 280px;
+	font-size: 12px !important;
+}
+
+	.guideui-inner {
+		box-shadow: 0 0 2em rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: 0 0 2em rgba(0, 0, 0, 0.4);
+		-webkit-box-shadow: 0 0 2em rgba(0, 0, 0, 0.4);
+		background-color: #888;
+		border-radius: 6px;
+		padding: 6px;
+		position: relative;
+	}
+
+		.guideui-content {
+			background-color: #fff;
+			border: 1px solid #777;
+			border-bottom: none;
+		}
+
+			.guideui-header {
+				font-weight: bold;
+				padding: 8px;
+			}
+
+			.guideui-body {
+				padding: 0 8px 8px;
+				font-size: 11px !important;
+			}
+
+			.guideui-footer {
+				text-align: right;
+				border-top: 1px solid #bbb;
+				background-color: #ccc;
+				padding: 4px;
+			}
+
+				.guideui-footer * {
+					font-size: 11px !important;
+				}
+
+				.guideui-footer input {
+					margin-left: 4px;
+					display: inline-block;
+					border: none;
+					background-color: #fff;
+					font-weight: bold;
+					padding: 4px 4px;
+					line-height: 1.0;
+					color: #333;
+				}
+
+				.guideui-footer input:hover {
+					position: relative;
+					top: 1px;
+				}
+
+				.guideui-button-execute {
+					background-color: #5B74A8 !important;
+					color: #fff !important;
+				}
+
+		.guideui-arrow {
+			display: none;
+			position: absolute;
+		}
+
+			.guideui-arrow-tl {
+				left: 20px;
+				top: -5px;
+				width: 9px;
+				height: 5px;
+				background: url('cross.png') no-repeat center 0;
+			}
+
+			.guideui-arrow-tr {
+				right: 20px;
+				top: -5px;
+				width: 9px;
+				height: 5px;
+				background: url('cross.png') no-repeat center 0;
+			}
+
+			.guideui-arrow-bl {
+				left: 20px;
+				bottom: -5px;
+				width: 9px;
+				height: 5px;
+				background: url('cross.png') no-repeat center bottom;
+			}
+
+			.guideui-arrow-br {
+				right: 20px;
+				bottom: -5px;
+				width: 9px;
+				height: 5px;
+				background: url('cross.png') no-repeat center bottom;
+			}
+
+			.guideui-arrow-rt {
+				right: -5px;
+				top: 20px;
+				width: 5px;
+				height: 9px;
+				background: url('cross.png') no-repeat 100% 5px;
+			}
+
+			.guideui-arrow-lt {
+				left: -5px;
+				top: 20px;
+				width: 5px;
+				height: 9px;
+				background: url('cross.png') no-repeat 0 5px;
+			}
