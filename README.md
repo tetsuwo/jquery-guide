@@ -1,35 +1,39 @@
-## what is this?
+# jQuery.guide()
 
 "jquery-guide" is plugin to guide your Website.
 
-## How to use?
 
-【簡単なデモ】
+## View Demonstration
 
 <http://jsdo.it/tetsuwo/c3u9>
 
-【任意要素をクリックしたときに実行する場合】
+
+## How to use?
+
+### 任意要素をクリックしたときに実行する
 
     $('.guide').click(function({
         $.guide({ .. settings .. });
     }));
 
 
-【ページ読み込み後に自動実行する場合】
+### ページ読み込み後に自動実行する
 
     $(document).ready(function({
         $.guide({ .. settings .. });
     }));
 
 
-【リロードした際に続きから表示する場合】
+### リロードした際に続きから表示する
 
     $.guide({
         is_stored: true
     });
 
-デフォルトのCookie名は guide です。
-ページごとに記憶する場合はこのようにすることもできます。
+※デフォルトのCookie名は guide です。
+
+
+#### ページごとに記憶する
 
     $.guide({
         is_stored: true,
@@ -44,7 +48,3 @@
     });
 
 ※このようにしてCookieを利用し、次の表示の際に続きからみせることもできます。
-
-
-
-
