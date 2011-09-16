@@ -33,7 +33,7 @@
 ※デフォルトのCookie名は guide です。
 
 
-#### ページごとに記憶する
+### ページごとに記憶する
 
     $.guide({
         is_stored: true,
