@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>jQuery Guide</title>
+        <link rel="stylesheet" href="../src/css/style.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <!--<script src="../src/js/jquery.guide.min.js"></script>-->
+        <script src="../src/js/jquery.guide.js"></script>
+    </head>
+    <body>
+        <header class="clearfix">
+            <h1 id="sitename">jQuery Guide Demo</h1>
+        </header>
+       
+        <section class="clearfix">
+            <nav>
+                <h1>nav</h1>
+                <p>hogehogehogehoge, hogehogehogehogehogehogehogehogehogehogehogehogehogehogehoge.</p>
+            </nav>
+            <article>
+                <h1>article</h1>
+                <p>hogehogehogehogehogehogehogehogehoge, hogehogehogehogehogehogehogehogehogehogehoge.</p>
+                <p>hogehogehogehogehogehoeghoeg.</p>
+                <p>hogehogehogehogehogehoge, hogehogehogehogehogehogehogehogehogehogehogehogehoge, hogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehoge</p>
+                <p>hogehogehogehogehogehoeghoeehogrhoge.</p>
+                <p>hogehogehogehogehogehoeghoeg.</p>
+                <p>hogehogehogehogehogehoeghoeg.</p>
+            </article>
+        </section>
+
+        <footer class="clearfix">
+            <small id="copyright">&copy; Tetsuwo OISHI</small>
+        </footer>
+
+        <script>
+        
+            $().ready(function() {
+                $.guide({
+                    is_stored: false,
+                    index: 0,
+                        data: [
+                            {
+                                selector : '#sitename',
+                                title    : 'jQuery Guide',
+                                body     : 'はいこれプラグインの名前ですよー。',
+                                position : 'tl'
+                            }, {
+                                selector : 'section nav h1',
+                                title    : 'ナビゲーション',
+                                body     : 'hoge としか書いてないけどナビゲーションの想定っす。',
+                                position : 'tl'
+                            }, {
+                                selector : 'section article h1',
+                                title    : '記事',
+                                body     : 'こっちも hoge としか書いてないですが、記事エリアの想定ですー。',
+                                position : 'tl'
+                            }, {
+                                selector : '#copyright',
+                                title    : 'このプラグインを作った人',
+                                body     : 'はい、ボクが作りましたー。って感じでガイドできます。Cookie 使って次から非表示とかできます。',
+                                position : 'br'
+                            }
+                        ]
+                });
+            });
+        
+        </script>
+    </body>
+</html>
