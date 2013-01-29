@@ -1,0 +1,29 @@
+{
+    "name": "guide",
+    "title": "jQuery Guide",
+    "description": "jQuery Guide is a jQuery plugin for guide the inside your Websites.",
+    "keywords": [
+        "guide",
+        "ui"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Tetsuwo OISHI",
+        "url": "http://tetsuwo.tumblr.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/tetsuwo/jquery-guide/blob/master/MIT-LICENSE.txt"
+        }
+    ],
+    "files": [
+        "src/js/jquery.guide.js"
+    ],
+    "bugs": "http://github.com/tetsuwo/jquery-guide/issues",
+    "homepage": "http://github.com/tetsuwo/jquery-guide",
+    "docs": "https://github.com/tetsuwo/jquery-guide/blob/master/README.md",
+    "dependencies": {
+        "jquery": ">=1.6"
+    }
+}

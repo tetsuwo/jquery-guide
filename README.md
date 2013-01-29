@@ -1,14 +1,17 @@
-# jQuery.guide()
+jQuery Guide Plug-In
+====================
 
-"jquery-guide" is plugin to guide your Website.
+jQuery Guide is a jQuery plugin for guide the inside your Websites.
 
 
-## View Demonstration
+View Demonstration
+------------------
 
 <http://jsdo.it/tetsuwo/c3u9>
 
 
-## How to use?
+How to use?
+-----------
 
 ### 任意要素をクリックしたときに実行する
 
